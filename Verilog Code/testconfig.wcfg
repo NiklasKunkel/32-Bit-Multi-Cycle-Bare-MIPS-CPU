@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/ad/eng/users/n/k/nkunkel/CompOrgLab/Project/ProjectNew/Test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="47" />
+   <wave_markers>
+      <marker time="67150000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/Test/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/PCREG/PCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/PCREG/PC_In" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_In[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_In[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/MemData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/PC_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/IRWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Instr31_26" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr31_26[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr31_26[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Instr25_21" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr25_21[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr25_21[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Instr20_16" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Instr20_16[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr20_16[4:0]</obj_property>
+      <obj_property name="label">Instr20_16[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Instr15_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr15_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr15_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/RegDst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/WRMux/Write_Reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/Read1or3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Read1or3</obj_property>
+      <obj_property name="ObjectShortName">Read1or3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/R1O3/ReadReg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ReadReg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Write_Reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Write_Reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Write_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Write_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/MemToReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemToReg</obj_property>
+      <obj_property name="ObjectShortName">MemToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/GPR/Write_Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Write_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_Data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/GPR/Read_Reg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Reg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/GPR/Read_Data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/GPR/Read_Data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Reg_A_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Reg_A_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_A_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Reg_B_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Reg_B_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_B_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/ZorS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ZorS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ZorS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/SZSE_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SZSE_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SZSE_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/ALUSrcA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/RAMO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RAMO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAMO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/ALUSrcB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/RBMO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RBMO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RBMO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/ALUOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/ALU_Reg_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_Reg_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Reg_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/PCSource" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCSource[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSource[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/PCW" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/PCWriteCond" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWriteCond</obj_property>
+      <obj_property name="ObjectShortName">PCWriteCond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/PCWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/BorN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BorN[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BorN[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Controller/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Reg_A_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Reg_A_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_A_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/MemData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Mem_Data_Reg_Out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Mem_Data_Reg_Out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mem_Data_Reg_Out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test/uut/Data/mem_contents" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_contents[15:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_contents[15:0,31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[15,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[14,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[13,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[12,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[11,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[10,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[9,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[8,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[7,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[6,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[5,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[4,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[3,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[2,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[1,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test/uut/Data/mem_contents[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_contents[0,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
