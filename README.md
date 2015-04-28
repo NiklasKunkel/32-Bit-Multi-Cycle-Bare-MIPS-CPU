@@ -6,3 +6,6 @@ State Machine
 
 CPU Architecture Schematic
 ![Architecture](https://github.com/NiklasKunkel/32-Bit-Multi-Cycle-Bare-MIPS-CPU/blob/master/architecture.png)
+
+Verification Testing
+![Architecture](https://github.com/NiklasKunkel/32-Bit-Multi-Cycle-Bare-MIPS-CPU/blob/master/Screenshots/P1_220_440.png)
